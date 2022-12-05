@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .co{
+            background: rgb(46, 39, 255);
+            font-family: montserrat;
+            width: 500px;
+            height: 450px;
+            color: white ;
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+        }
+        input[type="submit"]{
+            width: 70px;
+            height: 40px;
+            border: 1px solid;
+            background: rgb(230, 9, 13);
+            color: white;
+        }
+        #but{
+            background-color: red
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="co">
+        <center><h1 style="color: red;"> <b><u>Contact Us</u></b></h1></center><br><br><br>
+                <center>
+                <input type="text" id="name" name="name" placeholder="Your name" required><br><br><br>
+                <input type="text" id="email" name="email" placeholder="Your email" required><br><br><br>
+                <input type="text" id="Phone" name="Phone" placeholder="Phone" required><br><br><br>
+                <textarea name="mess" cols="20" rows="2" placeholder="Message"></textarea><br><br><br>
+            <li>
+                <form action="http://127.0.0.1:5500/01-hello/send.html" target="blank"><button id="but" style="background-color: red; color:white;">Send</button></form>
+            </li>
+                </center>
+    </div>
+    <div>
+        
+    </div>
+</body>
+</html>
